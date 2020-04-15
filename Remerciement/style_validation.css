@@ -1,0 +1,47 @@
+/* 
+Programme CSS
+-----------------
+Réalisé par Nicolas CHANTEPIE 
+*/
+
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+section{
+    border: 1px solid black ;
+    width: 85%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+article{
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+  
+}
+
+p {
+    border: 1px solid black; 
+}
+aside{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}

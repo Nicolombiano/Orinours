@@ -1,0 +1,93 @@
+/* 
+Programme CSS
+-----------------
+Réalisé par Nicolas CHANTEPIE 
+*/
+/*-------------- header layout ----------------------------------------*/
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 0px 100px;
+}
+
+
+
+
+
+/*-------------- header layout END----------------------------------------*/
+
+/*-------------- section layout ------------------------------------------*/
+section{
+    border: 1px solid black ;
+    width: 90%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+
+article{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    text-align: center;
+}
+#ajout_panier{
+    border: 1px black solid;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    border:1px solid black; 
+    width: 300px;
+    margin: auto;
+}
+
+p strong{
+    font-size: 34px;
+}
+#panier{
+    border: solid black 1px;
+    width: 80%;
+    height:auto;
+
+}
+#panier p{
+    border: solid black 1px;
+    padding-top: 10px;
+    height: 30px;
+    font-size: 24px;
+}
+/*-------------- section layout END----------------------------------------*/
+aside{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}
+/*-------------- footer layout --------------------------------------------*/
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+
+
+/*-------------- footer layout END ----------------------------------------*/
+
+ {
+    border: 1px solid black; 
+}
